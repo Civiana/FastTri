@@ -19,7 +19,26 @@ namespace FastTri
 
         private void btnYY_Click(object sender, EventArgs e)
         {
+            YYForm YY = new YYForm();
+            YY.Show();
+        }
 
+        private void btnDD_Click(object sender, EventArgs e)
+        {
+            DDForm DD = new DDForm();
+            DD.Show();
+        }
+
+        private void btnNN_Click(object sender, EventArgs e)
+        {
+            NNForm NN = new NNForm();
+            NN.Show();
+        }
+
+        private void btnZZ_Click(object sender, EventArgs e)
+        {
+            ZZForm ZZ = new ZZForm();
+            ZZ.Show();
         }
     }
 }

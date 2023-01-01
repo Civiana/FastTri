@@ -62,6 +62,7 @@
             this.btnZZ.TabIndex = 1;
             this.btnZZ.Text = "ZZ";
             this.btnZZ.UseVisualStyleBackColor = true;
+            this.btnZZ.Click += new System.EventHandler(this.btnZZ_Click);
             // 
             // btnDD
             // 
@@ -76,6 +77,7 @@
             this.btnDD.TabIndex = 2;
             this.btnDD.Text = "DD";
             this.btnDD.UseVisualStyleBackColor = true;
+            this.btnDD.Click += new System.EventHandler(this.btnDD_Click);
             // 
             // btnNN
             // 
@@ -90,6 +92,7 @@
             this.btnNN.TabIndex = 3;
             this.btnNN.Text = "NN";
             this.btnNN.UseVisualStyleBackColor = true;
+            this.btnNN.Click += new System.EventHandler(this.btnNN_Click);
             // 
             // Form1
             // 
